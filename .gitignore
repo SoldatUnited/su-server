@@ -1,0 +1,31 @@
+# Ignore these soldatserver files
+README.txt
+anims/
+anti-cheat/
+banned.txt
+bannedhw.txt
+bots/
+changelog.txt
+iphist.dat
+lobby_servers.txt
+logs/
+objects/
+remote.txt
+scenery-gfx/
+serverscript
+soldatserver
+soldatserver.exe
+soldatserver_legacy
+soldatserver_legacy.exe
+soldatserver_osx
+textures/
+
+
+# Keep these files in git
+# maps/
+# mapslist.txt
+# scripts/
+# server.ini
+# soldat.ini
+# weapons.ini
+# weapons_realistic.ini
