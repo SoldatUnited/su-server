@@ -3,6 +3,13 @@ const
 	IRC_TEXT = 'Join us at Quakenet #soldat-united or visit http://webchat.quakenet.org?channels=soldat-united';
 	CALL_HELP_TEXT = 'Type !help to show the help again.';
 
+procedure PrintHelp(Player: TActivePlayer);
+begin
+	Player.WriteConsole(HELP_TEXT, $ff7f00);
+	Player.WriteConsole(IRC_TEXT, $ff7f00);
+	Player.WriteConsole(CALL_HELP_TEXT, $ff7f00);
+end;
+
 procedure OnJoin(Player: TActivePlayer; Team: TTeam);
 begin
 	PrintHelp(Player);
@@ -14,13 +21,6 @@ begin
 	if (Text = '!help') then begin
 		PrintHelp(Player);
 	end;
-end;
-
-procedure PrintHelp(Player: TActivePlayer);
-begin
-	Player.WriteConsole(HELP_TEXT, $ff7f00);
-	Player.WriteConsole(IRC_TEXT, $ff7f00);
-	Player.WriteConsole(CALL_HELP_TEXT, $ff7f00);
 end;
 
 procedure Init();
