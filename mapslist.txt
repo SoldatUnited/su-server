@@ -1,0 +1,7 @@
+ctf_Ash
+ctf_Nuubia
+ctf_Rotten
+ctf_Guardian
+ctf_Steel
+ctf_X
+ctf_Snakebite
