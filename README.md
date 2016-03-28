@@ -30,6 +30,7 @@ There's much left to do.
 
 * Basic script: !help, !p, !up, !r, !maps, !map !random !a !b !c !d !s !ub
 * Advanced script: !irc !stats
+* Balance script: !balance
 * More ideas...
 
 Feel free to open an issue or contact me at #soldat-united on Quakenet. 
